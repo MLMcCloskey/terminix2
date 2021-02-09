@@ -1,35 +1,74 @@
-.terminix-header {
-    background-color: #002f47;
+/* General */
+body {
+    color: #002f47;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
 }
 
 .orange-box {
     background-color: #f5841f;
     color: white;
-    width: 90%;
-    margin: 0 5%;
+    font-weight: bold;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 400px;
 }
 
+.phone-icon {
+    display: inline;
+    padding: 0 10px 10px 0;
+}
+
+.phone-number {
+    font-size: 2em;
+}
+
+
+/* Header */
+.terminix-header {
+    background-color: #002f47;
+    padding: 20px 10px;
+    /* left: 20px; */
+}
+
+
+
+/* Hero */
 .termite-hero {
     background-image: url('../images/Termite Img.png');
     background-repeat: no-repeat;
     background-size: contain;
+    padding-top: 50px;
+    /* padding-bottom: 50px; */
+    min-height: 150px;
 }
 
 .hero-text {
     color: white;
     text-align: center;
+    font-weight: bold;
 }
 
+
+
+/* Forms */
 #HeroForm, .bottom-form {
     background-color: #002f47;
     width: 90vw;
     margin: 15px 5vw;
-    padding: 15px 0;
+    padding: 15px;
+    color: white;
+    text-align: center;
 }
 
 .form-inputs {
     /* padding-top: 10px; */
-    margin-top: 15px;
+    margin: 15px auto 0;
+    max-width: 500px;
 }
 
 ::placeholder {
@@ -44,4 +83,57 @@
     /* padding: 30px; */
     margin: 20px 5% 0 5%;
     width: 90%;
+}
+
+
+
+/* Map section */
+
+#damage-cost {
+    padding: 0 30px;
+    text-align: center;
+}
+
+
+
+
+
+/* info block */
+.info-block {
+    background-color: #eff0ef;
+    margin: 10px;
+    padding: 10px;
+}
+
+.info-block h5 {
+    color: #3cb363;
+    font-weight: bold;
+}
+
+
+
+/* mobile cta */
+.mobile-cta{
+    text-align: center;
+    margin: 20px;
+}
+
+
+
+/* threat section */
+.threat-section {
+    margin: 20px 5%;
+}
+
+.threat-section ol {
+    margin-left: -25px;
+}
+
+
+
+/* bottom form */
+.bottom-form {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
 }
