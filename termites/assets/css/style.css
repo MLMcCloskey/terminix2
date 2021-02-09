@@ -8,25 +8,6 @@ img {
     margin: 0 auto;
 }
 
-.orange-box {
-    background-color: #f5841f;
-    color: white;
-    font-weight: bold;
-    display: block;
-    width: 80%;
-    margin: 0 auto;
-    max-width: 350px;
-    border-radius: 5px;
-}
-
-.phone-icon {
-    display: inline;
-    padding: 0 10px 10px 0;
-}
-
-.phone-number {
-    font-size: 2em;
-}
 
 
 /* Header */
@@ -102,7 +83,7 @@ img {
 /* info block */
 .info-block {
     background-color: #eff0ef;
-    margin: 10px;
+    margin: 5%;
     padding: 10px;
 }
 
@@ -123,7 +104,7 @@ img {
 
 /* threat section */
 .threat-section {
-    margin: 20px 5%;
+    margin: 20px 10%;
 }
 
 .threat-section ol {
@@ -137,4 +118,33 @@ img {
     width: 100%;
     margin: 0;
     padding: 10px;
+}
+
+
+
+
+/* misc */
+.orange-box {
+    background-color: #f5841f;
+    color: white;
+    font-weight: bold;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 350px;
+    border-radius: 5px;
+}
+
+.phone-icon {
+    display: inline;
+    padding: 0 10px 10px 0;
+}
+
+.phone-number {
+    font-size: 2em;
+}
+
+.offer-image {
+    min-width: 50vw;
+    margin-bottom: 15px;
 }
