@@ -68,7 +68,13 @@ img {
 }
 
 .tcpa {
-    margin: 10px 11%;
+    margin: 10px auto;
+    max-width: 420px;
+}
+
+#consentText {
+    display: block;
+    padding: 0 15px;
 }
 
 
