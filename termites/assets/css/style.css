@@ -119,6 +119,8 @@ img {
 
 .threat-section ol {
     margin-left: -25px;
+    font-size: 1.1em;
+    font-weight: 550;
 }
 
 
@@ -130,6 +132,11 @@ img {
     padding: 10px;
 }
 
+.phone-cta {
+    color: #f5841f;
+    font-size: 1.1em;
+    font-weight: 600;
+}
 
 
 
