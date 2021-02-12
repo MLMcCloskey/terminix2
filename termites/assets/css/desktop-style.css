@@ -21,11 +21,14 @@ img {
 .orange-box {
     background-color: #f5841f;
     color: white;
+    font-size: 0.8em;
     font-weight: bold;
     display: block;
     width: 80%;
     margin: 0 auto;
-    max-width: 150px;
+    height: 50px;
+    width: 200px;
+    max-width: 200px;
     max-height: 50px;
     border-radius: 5px;
 }
@@ -214,6 +217,7 @@ img {
     color: #3cb363;
     font-weight: bold;
     font-size: 1.1em;
+    line-height: 2em;
 }
 
 
@@ -223,7 +227,8 @@ img {
     text-align: center;
     margin: 20px 0;
     background-color: #f5841f;
-    font-size: .8em;
+    font-size: .75em;
+    font-weight: 510;
     padding: 20px 0;
 }
 
@@ -240,7 +245,7 @@ img {
 /* threat section */
 .threat-section {
     padding: 80px 0 0 80px;
-    /* font-size: 1.2em; */
+    font-size: 1.1em;
 }
 
 .threat-section ol {
@@ -254,16 +259,20 @@ img {
 
 /* coupon */
 .coupon {
-    width: 90%;
-    margin: 80px 0 60px 80px;
+    width: 100%;
+    margin: 100px 0 60px 80px;
 }
 
 /* bottom form */
 .bottom-form {
     /* width: 90%; */
-    margin: 50px;
+    margin: 80px;
     padding: 10px;
     background-color: white;
+}
+
+.bottom-form .form-inputs {
+    margin-top: 15px;
 }
 
 /* .bottom-form .col-sm-3 .col-sm-6 {
@@ -281,3 +290,22 @@ img {
     font-size: 3rem;
 }
 
+
+
+
+
+
+/* Terminix Promise */
+
+.terminix-promise {
+    background-color: #20aa4d;
+}
+
+
+
+
+/* Protection section */
+
+.protection-sprites {
+    background-color: #eff0ef;
+}
