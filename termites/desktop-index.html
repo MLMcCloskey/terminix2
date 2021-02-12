@@ -135,10 +135,10 @@
             </section>
 
 
-            <section class="threat-section">
+            <section>
                 <div class="row">
-                    <div class="col-sm-5">
-                        <h4><strong>Termites are always a threat.</strong></h4>
+                    <div class="col-sm-5 threat-section">
+                        <h2><strong>Termites are always a threat.</strong></h2>
                         <p>Every day you go without termite protection, your home is vulnerable to damage.</p>
                         <ol>
                             <li>Liquid Defend System</li>
@@ -155,59 +155,74 @@
             </section>
 
             <div class="row">
-                <img src="./assets/images/desktop-images/Coupon.png" class="offer-image">
+                <div class="col-sm-4">
+                    <img src="./assets/images/desktop-images/Coupon.png" class="coupon">
+                </div>
 
-                <!-- Common Form Template for the Bottom Form of the page -->
-                <section class="bottom-form">
-                    <form id="BottomForm" class="form-step">
-                        <h2><strong>DON'T WAIT!</strong></h2>
-                        <h4>Just call <span class="phone-cta">800-000-0000</span> or fill out the form below to get
-                            started.
-                        </h4>
-                        <div class="form-inputs">
-                            <div class="row">
-                                <div class="col-md-6 col-lg-6">
-                                    <input type="text" class="form-control name" id="fullname" placeholder="Full Name"
-                                        name="FullName">
+                <div class="col-sm-8">
+                    <!-- Common Form Template for the Bottom Form of the page -->
+                    <section class="bottom-form">
+                        <form id="BottomForm" class="form-step">
+                            <h2><strong>DON'T WAIT!</strong></h2>
+                            <h4>Just call <span class="phone-cta">800-000-0000</span> or fill out the form below to get
+                                started.
+                            </h4>
+                            <div class="form-inputs">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <input type="text" class="form-control name" id="fullname"
+                                            placeholder="Full Name" name="FullName">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <input type="text" class="form-control street" id="address"
+                                            name="Street Address" placeholder="Street Address">
+                                    </div>
                                 </div>
-                                <div class="col-md-6 col-lg-6">
-                                    <input type="tel" class="form-control phone" id="phone" placeholder="Phone Number"
-                                        name="Phone" maxlength="10">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <input type="email" class="form-control email" id="email"
+                                            placeholder="Email Address" name="Email">
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <input type="text" class="form-control city" id="city" name="City"
+                                            placeholder="City">
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <input type="text" class="form-control state" id="state" name="State"
+                                            placeholder="State">
+                                    </div>
                                 </div>
-                                <div class="col-md-6 col-lg-6">
-                                    <input type="email" class="form-control email" id="email"
-                                        placeholder="Email Address" name="Email">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <input type="tel" class="form-control phone" id="phone"
+                                            placeholder="Phone Number" name="Phone" maxlength="10">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <input type="text" class="form-control zip" id="zip" name="Zip"
+                                            placeholder="Zip Code">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12 col-lg-12">
-                                    <input type="text" class="form-control address" id="address" name="Address"
-                                        placeholder="Street Address">
+                                <input type="hidden" name="PestTermite" value="rodent" />
+                                <input type="hidden" id="formid" name="FormId" value="BottomForm" />
+                                <input type="hidden" id="btnid" name="ButtonId" value="ButtomButton" />
+                                <div class="row">
+                                    <div class="col-md-8 col-lg-8">
+                                        <div class="tcpa"></div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4">
+                                        <button type="submit" class="btn next-step orange-box" id="Post">
+                                            <span>SCHEDULE NOW ></span>
+                                        </button>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6 col-lg-6">
-                                    <input type="text" id="zip" name="Zip" placeholder="Zip Code"
-                                        class="form-control zip">
-                                </div>
-                            </div>
-                        </div>
-                        <input type="hidden" name="PestTermite" value="rodent" />
-                        <input type="hidden" id="formid" name="FormId" value="BottomForm" />
-                        <input type="hidden" id="btnid" name="ButtonId" value="ButtomButton" />
-                        <div class="row">
-                            <div class="col-md-8 col-lg-8">
-                                <div class="tcpa"></div>
-                            </div>
-                            <div class="col-md-4 col-lg-4">
-                                <button type="submit" class="btn next-step orange-box" id="Post">
-                                    <span>SCHEDULE NOW ></span>
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                </section>
+                        </form>
+                    </section>
+                </div>
             </div>
+
+            <!-- add green banner with teminix promise logo from first page -->
+
+            <!-- protection is our priority section with with images from photoshop file turned into sprites -->
 
             <!-- DO NOT REMOVE -->
             <include src="/shared/offers.html" />

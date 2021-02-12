@@ -131,7 +131,7 @@ img {
 
 
 /* Forms */
-#HeroForm, .bottom-form {
+#HeroForm{
     background-color: #002f47;
     width: 60vw;
     margin: 15px 20vw;
@@ -207,29 +207,39 @@ img {
 /* desktop cta */
 .desktop-cta{
     text-align: center;
-    margin: 20px;
+    margin: 20px 0;
+    background-color: #f5841f;
 }
 
 
 
 /* threat section */
 .threat-section {
-    margin: 20px 10%;
+    padding: 80px 0 0 80px;
+    font-size: 2em;
 }
 
 .threat-section ol {
-    margin-left: -25px;
+    margin-left: -10px;
     font-size: 1.1em;
     font-weight: 550;
 }
 
 
 
+
+/* coupon */
+.coupon {
+    width: 90%;
+    margin: 60px 0 60px 80px;
+}
+
 /* bottom form */
 .bottom-form {
-    width: 100%;
+    width: 90%;
     margin: 0;
     padding: 10px;
+    background-color: white;
 }
 
 .phone-cta {
