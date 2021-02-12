@@ -29,7 +29,7 @@
         <header class="sticky-header terminix-header">
             <!--terminix logo  -->
             <img src='./assets/images/Logo.png' id="logo">
-            <div class="phone-advert">
+            <div class="phone-advert text-right">
                 <span class="top-phone-cta green-box">GET YOUR FREE INSPECTION</span>
                 <span class="top-phone-number">800-000-0000</span>
             </div>
@@ -50,31 +50,26 @@
                     <div class="form-inputs">
                         <div class="row">
                             <div class="col-sm-6">
-                                <input type="text" class="form-control name" id="fullname" placeholder="Full Name"
-                                    name="FullName">
+                                <input type="text" class="form-control name" id="fullname" placeholder="Full Name" name="FullName">
                             </div>
                             <div class="col-sm-6">
-                                <input type="text" class="form-control street" id="address" name="Street Address"
-                                    placeholder="Street Address">
+                                <input type="text" class="form-control street" id="address" name="Street Address" placeholder="Street Address">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-6">
-                                <input type="email" class="form-control email" id="email" placeholder="Email Address"
-                                    name="Email">
+                                <input type="email" class="form-control email" id="email" placeholder="Email Address" name="Email">
                             </div>
                             <div class="col-sm-3">
                                 <input type="text" class="form-control city" id="city" name="City" placeholder="City">
                             </div>
                             <div class="col-sm-3">
-                                <input type="text" class="form-control state" id="state" name="State"
-                                    placeholder="State">
+                                <input type="text" class="form-control state" id="state" name="State" placeholder="State">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-6">
-                                <input type="tel" class="form-control phone" id="phone" placeholder="Phone Number"
-                                    name="Phone" maxlength="10">
+                                <input type="tel" class="form-control phone" id="phone" placeholder="Phone Number" name="Phone" maxlength="10">
                             </div>
                             <div class="col-sm-6">
                                 <input type="text" class="form-control zip" id="zip" name="Zip" placeholder="Zip Code">
@@ -100,10 +95,11 @@
 
             <h4 id="damage-cost">Termites cause over <strong>$5 BILLION</strong> in damage in the U.S. every year.</h4>
 
+            <!-- map and info -->
             <section class="map-container">
                 <div class="row">
                     <div class="col-sm-5">
-                        <img src="./assets/images/termites-map.png" id="termite-map">
+                        <img src="./assets/images/desktop-images/termites-map.png" id="termite-map">
                     </div>
                     <div class="col-sm-7">
                         <section class="info-block">
@@ -126,19 +122,25 @@
                 </div>
             </section>
 
-            <!-- orange banner goes here -->
+            <!-- orange banner -->
             <section class="desktop-cta">
-                <h4>Don't wait to <i>save 10%</i> on a <br>
-                    Terminix Termite Plan - <strong><i>CALL NOW!</i></strong></h4>
-                <div class="orange-box"><img src="assets/images/Phone Icon.png" class="phone-icon"><span
-                        class="phone-number">800-000-0000</span></div>
+                <div class="row">
+                    <div class="col-sm-6 text-right">
+                        <span>Don't wait to <i>save 10%</i> on a <br>
+                            Terminix Termite Plan - <strong><i>CALL NOW!</i></strong></span>
+                    </div>
+                    <div class="col-sm-6 text-left">
+                        <div class="phone-box box-shadow"><img src="assets/images/desktop-images/Phone Icon.png" class="phone-icon"><span class="phone-number">800-000-0000</span>
+                        </div>
+                    </div>
+                </div>
             </section>
 
-
+            <!-- Threat and house image -->
             <section>
                 <div class="row">
                     <div class="col-sm-5 threat-section">
-                        <h2><strong>Termites are always a threat.</strong></h2>
+                        <h1><strong>Termites are always a threat.</strong></h1>
                         <p>Every day you go without termite protection, your home is vulnerable to damage.</p>
                         <ol>
                             <li>Liquid Defend System</li>
@@ -163,43 +165,36 @@
                     <!-- Common Form Template for the Bottom Form of the page -->
                     <section class="bottom-form">
                         <form id="BottomForm" class="form-step">
-                            <h2><strong>DON'T WAIT!</strong></h2>
-                            <h4>Just call <span class="phone-cta">800-000-0000</span> or fill out the form below to get
+                            <span id="exclamation"><strong><i>DON'T WAIT!</i></strong></span>
+                            <span>Just call <span class="phone-cta">800-000-0000</span> or fill out the form below to get
                                 started.
-                            </h4>
+                            </span>
                             <div class="form-inputs">
                                 <div class="row">
                                     <div class="col-sm-6">
-                                        <input type="text" class="form-control name" id="fullname"
-                                            placeholder="Full Name" name="FullName">
+                                        <input type="text" class="form-control name bottom-form-inputs" id="fullname" placeholder="Full Name" name="FullName">
                                     </div>
                                     <div class="col-sm-6">
-                                        <input type="text" class="form-control street" id="address"
-                                            name="Street Address" placeholder="Street Address">
+                                        <input type="text" class="form-control street bottom-form-inputs" id="address" name="Street Address" placeholder="Street Address">
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-6">
-                                        <input type="email" class="form-control email" id="email"
-                                            placeholder="Email Address" name="Email">
+                                        <input type="email" class="form-control email bottom-form-inputs" id="email" placeholder="Email Address" name="Email">
                                     </div>
                                     <div class="col-sm-3">
-                                        <input type="text" class="form-control city" id="city" name="City"
-                                            placeholder="City">
+                                        <input type="text" class="form-control city bottom-form-inputs" id="city" name="City" placeholder="City">
                                     </div>
                                     <div class="col-sm-3">
-                                        <input type="text" class="form-control state" id="state" name="State"
-                                            placeholder="State">
+                                        <input type="text" class="form-control state bottom-form-inputs" id="state" name="State" placeholder="State">
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-6">
-                                        <input type="tel" class="form-control phone" id="phone"
-                                            placeholder="Phone Number" name="Phone" maxlength="10">
+                                        <input type="tel" class="form-control phone bottom-form-inputs" id="phone" placeholder="Phone Number" name="Phone" maxlength="10">
                                     </div>
                                     <div class="col-sm-6">
-                                        <input type="text" class="form-control zip" id="zip" name="Zip"
-                                            placeholder="Zip Code">
+                                        <input type="text" class="form-control zip bottom-form-inputs" id="zip" name="Zip" placeholder="Zip Code">
                                     </div>
                                 </div>
                                 <input type="hidden" name="PestTermite" value="rodent" />
@@ -210,7 +205,7 @@
                                         <div class="tcpa"></div>
                                     </div>
                                     <div class="col-md-4 col-lg-4">
-                                        <button type="submit" class="btn next-step orange-box" id="Post">
+                                        <button type="submit" class="btn next-step orange-box box-shadow" id="Post">
                                             <span>SCHEDULE NOW ></span>
                                         </button>
                                     </div>
@@ -232,10 +227,10 @@
     </div>
     <div id="modalContainer"></div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
-        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"
-        integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"
+        defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8="
+        crossorigin="anonymous" defer></script>
     <script src="https://cdn.rmiatl.org/cdn/js/jquery-mask/v1.14.15/jquery.mask.min.js" defer></script>
 
     <script src="https://cdn.rmiatl.org/cdn/js/jshelpers/v1/helper.js" defer></script>
