@@ -30,7 +30,7 @@
             <!--terminix logo  -->
             <img src='./assets/images/Logo.png' id="logo">
             <div class="phone-advert">
-                <span class="top-phone-cta">GET YOUR FREE INSPECTION</span>
+                <span class="top-phone-cta green-box">GET YOUR FREE INSPECTION</span>
                 <span class="top-phone-number">800-000-0000</span>
             </div>
         </header>
@@ -39,49 +39,85 @@
             <section class="hero termite-hero text-center">
                 <!-- picture of termites -->
                 <!-- <img src="./assets/images/Termite Img.png"> -->
-                <h3 class="hero-text">TERMITES ARE COMING.</h3>
+                <h1 class="hero-text">TERMITES ARE COMING.</h1>
                 <!-- Free inspection blip -->
-                <img src="assets/images/Hero Offer.png" class="offer-image">
+                <img src="assets/images/desktop-images/Hero Offer.png" class="offer-image">
 
                 <!-- Common Form Template In the Hero Section of the page -->
                 <form id="HeroForm" class="form-step text-center">
                     <h4><strong><i>Get ahead of the swarm now.</i></strong></h4>
                     <p>Call or click to book your FREE inspection.</p>
                     <div class="form-inputs">
-                        <input type="text" class="form-control name" id="fullname" placeholder="Full Name"
-                            name="FullName">
-                        <input type="tel" class="form-control phone" id="phone" placeholder="Phone Number" name="Phone"
-                            maxlength="10">
-                        <input type="email" class="form-control email" id="email" placeholder="Email Address"
-                            name="Email">
-                        <input type="text" class="form-control street" id="address" name="Street Address"
-                            placeholder="Street Address">
-                        <input type="text" class="form-control zip" id="zip" name="Zip" placeholder="Zip Code">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control name" id="fullname" placeholder="Full Name"
+                                    name="FullName">
+                            </div>
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control street" id="address" name="Street Address"
+                                    placeholder="Street Address">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <input type="email" class="form-control email" id="email" placeholder="Email Address"
+                                    name="Email">
+                            </div>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control city" id="city" name="City" placeholder="City">
+                            </div>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control state" id="state" name="State"
+                                    placeholder="State">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <input type="tel" class="form-control phone" id="phone" placeholder="Phone Number"
+                                    name="Phone" maxlength="10">
+                            </div>
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control zip" id="zip" name="Zip" placeholder="Zip Code">
+                            </div>
+                        </div>
                     </div>
-                    <div class="tcpa"></div>
-                    <input type="hidden" name="PestTermite" value="rodent" />
-                    <input type="hidden" id="formid" name="FormId" value="HeroForm" />
-                    <input type="hidden" id="btnid" name="ButtonId" value="HeroButton" />
-                    <button type="submit" class="btn next-step orange-box" id="Post">
-                        <span>SCHEDULE NOW ></span>
-                    </button>
+                    <div class="row">
+                        <div class="col-sm-9">
+                            <input type="hidden" name="PestTermite" value="rodent" />
+                            <input type="hidden" id="formid" name="FormId" value="HeroForm" />
+                            <div class="tcpa"></div>
+                        </div>
+                        <div class="col-sm-3">
+                            <input type="hidden" id="btnid" name="ButtonId" value="HeroButton" />
+                            <button type="submit" class="btn next-step orange-box" id="Post">
+                                <span>SCHEDULE NOW ></span>
+                            </button>
+                        </div>
+                    </div>
                 </form>
             </section>
+
+
+            <h4 id="damage-cost">Termites cause over <strong>$5 BILLION</strong> in damage in the U.S. every year.</h4>
 
             <section class="map-container">
                 <div class="row">
                     <div class="col-sm-5">
-                        <img src="./assets/images/termites-map.png">
+                        <img src="./assets/images/termites-map.png" id="termite-map">
                     </div>
                     <div class="col-sm-7">
                         <section class="info-block">
-                            <p>A well-organized termite colony can have more than a million hungry workeres consuming over 100
-                                pounds of wood per year. The average cost of termite treatment and damage repair is more than
-                                $8,000.
+                            <p>A well-organized termite colony can have more than a million hungry workeres consuming
+                                over 100
+                                pounds of wood per year. The average cost of termite treatment and damage repair is
+                                <strong><i>more than $8,000.</i></strong>
+                            </p>
                             <h5>DO I HAVE TERMITES?</h5>
-                            <P>Termite activity often goes undetected. If termites find a crack as thin as a credit card in your
-                                home's structure, they can get in and eat away without any visible signs. Thats why effective
-                                termite control is vital.</P>
+                            <P>Termite activity often goes undetected. If termites find a crack as thin as a credit card
+                                in your
+                                home's structure, they can get in and eat away without any visible signs. Thats why
+                                effective termite control is vital.
+                            </p>
                             <h5>HOW DO THEY GET INTO YOUR HOUSE?</h5>
                             <p>Drywood termites come from above. <br>
                                 Subterranean and Formosan termites come from below.</p>
@@ -100,70 +136,78 @@
 
 
             <section class="threat-section">
-                <h4><strong>Termites are always a threat.</strong></h4>
-                <p>Every day you go without termite protection, your home is vulnerable to damage.</p>
-                <ol>
-                    <li>Liquid Defend System</li>
-                    <li>Drywood Defend System</li>
-                    <li>OnGuard Termite Protection System</li>
-                </ol>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <h4><strong>Termites are always a threat.</strong></h4>
+                        <p>Every day you go without termite protection, your home is vulnerable to damage.</p>
+                        <ol>
+                            <li>Liquid Defend System</li>
+                            <li>Drywood Defend System</li>
+                            <li>OnGuard Termite Protection System</li>
+                        </ol>
+                    </div>
+                    <div class="col-sm-7">
+                        <section>
+                            <img src="./assets/images/desktop-images/House Img.png">
+                        </section>
+                    </div>
+                </div>
+            </section>
 
-                <section>
-                    <img src="./assets/images/Termite House Img.png">
+            <div class="row">
+                <img src="./assets/images/desktop-images/Coupon.png" class="offer-image">
+
+                <!-- Common Form Template for the Bottom Form of the page -->
+                <section class="bottom-form">
+                    <form id="BottomForm" class="form-step">
+                        <h2><strong>DON'T WAIT!</strong></h2>
+                        <h4>Just call <span class="phone-cta">800-000-0000</span> or fill out the form below to get
+                            started.
+                        </h4>
+                        <div class="form-inputs">
+                            <div class="row">
+                                <div class="col-md-6 col-lg-6">
+                                    <input type="text" class="form-control name" id="fullname" placeholder="Full Name"
+                                        name="FullName">
+                                </div>
+                                <div class="col-md-6 col-lg-6">
+                                    <input type="tel" class="form-control phone" id="phone" placeholder="Phone Number"
+                                        name="Phone" maxlength="10">
+                                </div>
+                                <div class="col-md-6 col-lg-6">
+                                    <input type="email" class="form-control email" id="email"
+                                        placeholder="Email Address" name="Email">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 col-lg-12">
+                                    <input type="text" class="form-control address" id="address" name="Address"
+                                        placeholder="Street Address">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-lg-6">
+                                    <input type="text" id="zip" name="Zip" placeholder="Zip Code"
+                                        class="form-control zip">
+                                </div>
+                            </div>
+                        </div>
+                        <input type="hidden" name="PestTermite" value="rodent" />
+                        <input type="hidden" id="formid" name="FormId" value="BottomForm" />
+                        <input type="hidden" id="btnid" name="ButtonId" value="ButtomButton" />
+                        <div class="row">
+                            <div class="col-md-8 col-lg-8">
+                                <div class="tcpa"></div>
+                            </div>
+                            <div class="col-md-4 col-lg-4">
+                                <button type="submit" class="btn next-step orange-box" id="Post">
+                                    <span>SCHEDULE NOW ></span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
                 </section>
-            </section>
-
-
-            <img src="./assets/images/Coupon.png" class="offer-image">
-
-            <!-- Common Form Template for the Bottom Form of the page -->
-            <section class="bottom-form">
-                <form id="BottomForm" class="form-step">
-                    <h2><strong>DON'T WAIT!</strong></h2>
-                    <h4>Just call <span class="phone-cta">800-000-0000</span> or fill out the form below to get started.
-                    </h4>
-                    <div class="form-inputs">
-                        <div class="row">
-                            <div class="col-md-6 col-lg-6">
-                                <input type="text" class="form-control name" id="fullname" placeholder="Full Name"
-                                    name="FullName">
-                            </div>
-                            <div class="col-md-6 col-lg-6">
-                                <input type="tel" class="form-control phone" id="phone" placeholder="Phone Number"
-                                    name="Phone" maxlength="10">
-                            </div>
-                            <div class="col-md-6 col-lg-6">
-                                <input type="email" class="form-control email" id="email" placeholder="Email Address"
-                                    name="Email">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12 col-lg-12">
-                                <input type="text" class="form-control address" id="address" name="Address"
-                                    placeholder="Street Address">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-lg-6">
-                                <input type="text" id="zip" name="Zip" placeholder="Zip Code" class="form-control zip">
-                            </div>
-                        </div>
-                    </div>
-                    <input type="hidden" name="PestTermite" value="rodent" />
-                    <input type="hidden" id="formid" name="FormId" value="BottomForm" />
-                    <input type="hidden" id="btnid" name="ButtonId" value="ButtomButton" />
-                    <div class="row">
-                        <div class="col-md-8 col-lg-8">
-                            <div class="tcpa"></div>
-                        </div>
-                        <div class="col-md-4 col-lg-4">
-                            <button type="submit" class="btn next-step orange-box" id="Post">
-                                <span>SCHEDULE NOW ></span>
-                            </button>
-                        </div>
-                    </div>
-                </form>
-            </section>
+            </div>
 
             <!-- DO NOT REMOVE -->
             <include src="/shared/offers.html" />

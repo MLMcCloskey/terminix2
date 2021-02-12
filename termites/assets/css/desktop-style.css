@@ -29,9 +29,6 @@ img {
     border-radius: 5px;
 }
 
-.green-box {
-    background-color: #20aa4d;
-}
 
 .phone-icon {
     display: inline;
@@ -40,11 +37,6 @@ img {
 
 .phone-number {
     font-size: 2em;
-}
-
-.offer-image {
-    min-width: 50vw;
-    margin-bottom: 15px;
 }
 
 
@@ -58,12 +50,18 @@ img {
 }
 
 #logo {
-    margin-bottom: 10px;
+    margin: 0 0 10px 10px;
     display: inline-block;
 }
 
+.green-box {
+    background-color: #20aa4d;
+    color: white;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
 
-.phone-icon-area {
+ /* .phone-icon-area {
     width: 20%;
     height: 100%;
     display: inline-block;
@@ -72,32 +70,35 @@ img {
     left: 0;
     padding: none;
     margin: none;
-}
+} */
 
-#top-phone-icon {
+/* #top-phone-icon {
     height: 100%;
     padding: 10px;
     margin: auto;
     display: inline-block;
     
-}
+} */
 
 .phone-advert {
     width: 70%;
     height: 100%;
     display: inline-block;
-    right: 0;
+    /* right: 0; */
+    align-content: flex-end;
     padding: 5px 0 0 0;
 }
 
-.top-phone-cta {
+/* .top-phone-cta {
     font-size: 0.9em;
     margin: 0;
-}
+}  */
 
 .top-phone-number {
     margin: 0;
-    font-size: 1.5em;
+    color: #f5841f;
+    font-size: 2em;
+    font-weight: 650;
     margin: -5px 0 0 0;
 }
 
@@ -108,25 +109,32 @@ img {
 .termite-hero {
     background-image: url('../images/Termite Img.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     padding-top: 50px;
     /* padding-bottom: 50px; */
-    min-height: 150px;
+    min-height: 666px;
 }
 
 .hero-text {
     color: white;
     text-align: center;
     font-weight: bold;
+    font-size: 4em;
+    text-shadow: 4px 4px 8px black;
+    margin-bottom: 40px;
 }
 
+.offer-image {
+    width: 60vw;
+    margin: 40px auto;
+}
 
 
 /* Forms */
 #HeroForm, .bottom-form {
     background-color: #002f47;
-    width: 90vw;
-    margin: 15px 5vw;
+    width: 60vw;
+    margin: 15px 20vw;
     padding: 15px;
     color: white;
     text-align: center;
@@ -134,8 +142,9 @@ img {
 
 .form-inputs {
     /* padding-top: 10px; */
-    margin: 15px auto 0;
-    max-width: 420px;
+    /* margin: 15px auto 0; */
+    margin: auto;
+    /* max-width: 420px; */
 }
 
 ::placeholder {
@@ -148,8 +157,9 @@ img {
 
 .form-control {
     /* padding: 30px; */
-    margin: 20px 5% 0 5%;
-    width: 90%;
+    /* margin: 20px 5% 0 5%; */
+    margin-bottom: 5px;
+    /* width: 90%; */
 }
 
 .tcpa {
@@ -168,16 +178,21 @@ img {
 
 #damage-cost {
     padding: 0 30px;
+    margin: 25px 0;
     text-align: center;
+    font-size: 2.5em;
 }
 
+#termite-map {
+    width: 80%;
+}
 
 
 
 
 /* info block */
 .info-block {
-    background-color: #eff0ef;
+    /* background-color: #eff0ef; */
     margin: 5%;
     padding: 10px;
 }
@@ -189,8 +204,8 @@ img {
 
 
 
-/* mobile cta */
-.mobile-cta{
+/* desktop cta */
+.desktop-cta{
     text-align: center;
     margin: 20px;
 }
