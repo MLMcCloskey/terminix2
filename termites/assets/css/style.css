@@ -152,7 +152,12 @@ img {
     max-width: 390px;
 }
 
-#consentText {
+.tcpa text {
+    display: block;
+    padding: 0 15px;
+}
+
+/* #consentText {
     display: block;
     padding: 0 15px;
 }
@@ -160,7 +165,7 @@ img {
 #terms_2 {
     display: block;
     padding: 0 15px;
-}
+} */
 
 
 
