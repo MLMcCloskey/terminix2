@@ -137,6 +137,10 @@ img {
     margin: 40px auto;
 }
 
+.termite-hero p {
+    margin-bottom: 25px;
+}
+
 .offer-image {
     width: 60vw;
     margin: 40px auto;
@@ -193,7 +197,7 @@ img {
 
 .tcpa {
     margin: 10px auto;
-    max-width: 390px;
+    /* max-width: 390px; */
 }
 
 #consentText {
