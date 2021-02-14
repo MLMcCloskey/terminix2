@@ -176,10 +176,6 @@ img {
     /* max-width: 420px; */
 }
 
-.bottom-form-inputs {
-    background-color: #eff0ef;
-}
-
 ::placeholder {
     color: #002f47 !important;
     opacity: 1;
@@ -208,6 +204,7 @@ img {
 #Post {
     margin: 15px 15px 15px -25px;
 }
+
 
 
 
@@ -304,6 +301,10 @@ img {
     background-color: white;
 }
 
+.bottom-form-inputs {
+    background-color: #eff0ef;
+}
+
 .bottom-form .form-inputs {
     margin-top: 15px;
 }
@@ -323,6 +324,9 @@ img {
     font-size: 3rem;
 }
 
+.bottom-form .tcpa {
+    color: #002f47;
+}
 
 
 
