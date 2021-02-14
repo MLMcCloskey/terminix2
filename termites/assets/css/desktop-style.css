@@ -334,7 +334,11 @@ img {
 }
 
 .terminix-promise p {
-    margin: 0;
+    margin: 5% 0;
+}
+
+#terminix-promise-image {
+    margin: 0 0 0 auto;
 }
 
 
@@ -346,6 +350,7 @@ img {
 }
 .protection-sprites h2 {
     margin: 0;
+    padding: 20px 0;
     font-weight: 600;
 }
 
