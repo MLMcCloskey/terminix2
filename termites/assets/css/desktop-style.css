@@ -348,3 +348,28 @@ img {
     margin: 0;
     font-weight: 600;
 }
+
+.css-sprite-Experts
+{
+    background:url('../images/desktop-images/css-sprite-combined.png') 0px -0px;
+    width:156px;
+    height:156px;
+    display:inline-block;
+}
+
+.css-sprite-247
+{
+    background:url('../images/desktop-images/css-sprite-combined.png') -156px -0px;
+    width:156px;
+    height:156px;
+    display:inline-block;
+    margin: 0 5%;
+}
+
+.css-sprite-90years
+{
+    background:url('../images/desktop-images/css-sprite-combined.png') -312px -0px;
+    width:156px;
+    height:156px;
+    display:inline-block;
+}
