@@ -150,10 +150,11 @@ img {
 #HeroForm{
     background-color: #002f47;
     width: 60vw;
-    margin: 15px 20vw;
+    margin: 15px auto;
     padding: 15px;
     color: white;
     text-align: center;
+    min-width: 600px;
 }
 #HeroForm h1 {
     margin: 0;
@@ -280,7 +281,8 @@ img {
 /* coupon */
 .coupon {
     width: 100%;
-    margin: 100px 0 60px 80px;
+    /* margin: 100px 0 60px 80px; */
+    margin-left: 10%;
 }
 
 
