@@ -387,3 +387,30 @@ img {
     height:156px;
     display:inline-block;
 }
+
+
+
+/* bottom cta */
+.desktop-cta-2 {
+    text-align: center;
+    margin: 20px 0;
+    background-color: #eff0ef;
+    font-size: .75em;
+    font-weight: 505;
+    padding: 20px 0;
+}
+
+#bottom-phone {
+    background-color: #f5841f;
+    color: white;
+    font-size: 0.8em;
+    font-weight: bold;
+    /* display: block; */
+    /* width: 80%; */
+    margin: 0 auto;
+    /* height: 50px; */
+    /* width: 200px; */
+    /* max-width: 200px; */
+    /* max-height: 50px; */
+    /* border-radius: 5px; */
+}
