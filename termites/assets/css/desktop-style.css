@@ -311,6 +311,10 @@ img {
     padding: 10px;
 } */
 
+.bottom-form .tcpa {
+    padding-left: 0;
+}
+
 .phone-cta {
     /* color: #f5841f; */
     font-size: 1.1em;
