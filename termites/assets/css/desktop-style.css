@@ -154,7 +154,7 @@ img {
     padding: 15px;
     color: white;
     text-align: center;
-    min-width: 600px;
+    min-width: 700px;
 }
 #HeroForm h1 {
     margin: 0;
@@ -195,6 +195,9 @@ img {
 
 #Post {
     margin: 15px 15px 15px -25px;
+    position: absolute;
+    right: 0;
+    bottom: -42px;
 }
 
 
