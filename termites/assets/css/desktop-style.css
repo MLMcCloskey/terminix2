@@ -14,7 +14,9 @@ img {
     margin: 0 auto;
 }
 
-
+.row{
+    margin-right: 0;
+}
 
 
 
@@ -150,6 +152,7 @@ img {
     z-index: -5;
     /* float: center; */
     position: absolute;
+    max-width: 100%;
 }
 
 
