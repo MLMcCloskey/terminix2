@@ -12,7 +12,9 @@ img {
     margin: 0 auto;
 }
 
-
+.row {
+    margin-right: 0;
+}
 
 
 /* misc */
