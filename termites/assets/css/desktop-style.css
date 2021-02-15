@@ -65,6 +65,7 @@ img {
 #logo {
     margin: 0 0 10px 10px;
     display: inline-block;
+    width: 30%;
 }
 
 .green-box {
@@ -75,33 +76,17 @@ img {
     /* margin: 20px; */
 }
 
- /* .phone-icon-area {
-    width: 20%;
-    height: 100%;
-    display: inline-block;
-    position: relative;
-    top: -10px;
-    left: 0;
-    padding: none;
-    margin: none;
-} */
-
-/* #top-phone-icon {
-    height: 100%;
-    padding: 10px;
-    margin: auto;
-    display: inline-block;
-    
-} */
 
 .phone-advert {
     /* width: 75%; */
     height: 100%;
+    width: 65%;
     /* display: inline-block; */
     /* right: 0; */
     /* align-content: flex-end; */
     padding: 5px 0 0 0;
     float: right;
+    font-size: 2vw;
 }
 
 .top-phone-cta {
