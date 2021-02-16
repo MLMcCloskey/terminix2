@@ -49,10 +49,7 @@ img {
 
 /* Header */
 .terminix-header {
-    /* background-color: #002f47; */
     padding: 10px;
-    /* left: 20px; */
-    /* margin-left: 5%; */
 }
 
 #logo {
@@ -107,7 +104,6 @@ img {
     background-repeat: no-repeat;
     background-size: contain;
     padding-top: 50px;
-    /* padding-bottom: 50px; */
     min-height: 150px;
 }
 
@@ -137,7 +133,6 @@ img {
 }
 
 .form-inputs {
-    /* padding-top: 10px; */
     margin: 15px auto 0;
     max-width: 420px;
 }
@@ -151,7 +146,6 @@ img {
 }
 
 .form-control {
-    /* padding: 30px; */
     margin: 20px 5% 0 5%;
     width: 90%;
 }
@@ -165,17 +159,6 @@ img {
     display: block;
     padding: 0 15px;
 }
-
-/* #consentText {
-    display: block;
-    padding: 0 15px;
-}
-
-#terms_2 {
-    display: block;
-    padding: 0 15px;
-} */
-
 
 
 /* Map section */
@@ -236,6 +219,3 @@ img {
     font-size: 1.1em;
     font-weight: 600;
 }
-
-
-
