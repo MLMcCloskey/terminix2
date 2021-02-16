@@ -159,7 +159,7 @@ a {
     max-width: 390px;
 }
 
-.tcpa text {
+.tcpa * {
     display: block;
     padding: 0 15px;
 }
