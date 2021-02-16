@@ -79,12 +79,7 @@ img {
 
 
 .phone-advert {
-    /* width: 75%; */
     height: 100%;
-    width: 65%;
-    /* display: inline-block; */
-    /* right: 0; */
-    /* align-content: flex-end; */
     padding: 5px 0 0 0;
     float: right;
     font-size: 2vw;
@@ -162,10 +157,7 @@ img {
 }
 
 .form-inputs {
-    /* padding-top: 10px; */
-    /* margin: 15px auto 0; */
     margin: auto;
-    /* max-width: 420px; */
 }
 
 ::placeholder {
@@ -177,15 +169,11 @@ img {
 }
 
 .form-control {
-    /* padding: 30px; */
-    /* margin: 20px 5% 0 5%; */
     margin-bottom: 5px;
-    /* width: 90%; */
 }
 
 .tcpa {
     margin: 10px auto;
-    /* max-width: 390px; */
 }
 
 #consentText {
@@ -208,7 +196,6 @@ img {
 
 #damage-cost {
     padding-top: 2%;
-    /* margin: 25px 0; */
     text-align: center;
     font-size: 3vw;
     margin-bottom: 0;
@@ -285,7 +272,6 @@ img {
 /* coupon */
 .coupon {
     width: 100%;
-    /* margin: 100px 0 60px 80px; */
     margin-left: 10%;
 }
 
@@ -294,7 +280,6 @@ img {
 
 /* bottom form */
 .bottom-form {
-    /* width: 90%; */
     margin: 3%;
     padding: 10px;
     background-color: white;
@@ -308,16 +293,12 @@ img {
     margin-top: 15px;
 }
 
-/* .bottom-form .col-sm-3 .col-sm-6 {
-    padding: 10px;
-} */
 
 .bottom-form .tcpa {
     padding-left: 0;
 }
 
 .phone-cta {
-    /* color: #f5841f; */
     font-size: 1.1em;
     font-weight: 600;
 }
@@ -406,12 +387,5 @@ img {
     color: white;
     font-size: 0.8em;
     font-weight: bold;
-    /* display: block; */
-    /* width: 80%; */
     margin: 0 auto;
-    /* height: 50px; */
-    /* width: 200px; */
-    /* max-width: 200px; */
-    /* max-height: 50px; */
-    /* border-radius: 5px; */
 }
