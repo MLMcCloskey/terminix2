@@ -23,6 +23,9 @@ img {
 
 
 
+
+
+
 /* misc */
 .orange-box {
     background-color: #f5841f;
@@ -57,10 +60,10 @@ img {
 
 
 
+
 /* Header */
 .terminix-header {
     padding: 20px;
-    /* left: 20px; */
 }
 
 #logo {
@@ -74,7 +77,6 @@ img {
     color: white;
     border-radius: 5px;
     padding: 5px 20px;
-    /* margin: 20px; */
 }
 
 
@@ -110,7 +112,6 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 50px;
-    /* padding-bottom: 50px; */
     min-height: 666px;
 }
 
@@ -137,6 +138,7 @@ img {
     position: absolute;
     max-width: 100%;
 }
+
 
 
 
@@ -192,6 +194,7 @@ img {
 
 
 
+
 /* Map section */
 
 #damage-cost {
@@ -203,7 +206,6 @@ img {
 
 #termite-map {
     width: 100%;
-    /* margin-top: 50px; */
     margin-right: -40px;
 }
 
@@ -278,6 +280,7 @@ img {
 
 
 
+
 /* bottom form */
 .bottom-form {
     margin: 3%;
@@ -331,6 +334,7 @@ img {
 #terminix-promise-image {
     margin: 0 0 0 auto;
 }
+
 
 
 /* Protection section */
