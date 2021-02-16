@@ -111,11 +111,11 @@ img {
 
 /* Hero */
 .termite-hero {
-    /* background-image: url('../images/desktop-images/Termite Img.png'); */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
+    background-image: url('../images/desktop-images/Termite Img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 50px;
-    /* padding-bottom: 50px; */
+    padding-bottom: 50px;
     min-height: 666px;
 }
 
@@ -207,10 +207,11 @@ img {
 /* Map section */
 
 #damage-cost {
-    padding: 1%;
+    padding-top: 2%;
     /* margin: 25px 0; */
     text-align: center;
-    font-size: 1.75em;
+    font-size: 3vw;
+    margin-bottom: 0;
 }
 
 #termite-map {
@@ -294,7 +295,7 @@ img {
 /* bottom form */
 .bottom-form {
     /* width: 90%; */
-    margin: 5%;
+    margin: 3%;
     padding: 10px;
     background-color: white;
 }
