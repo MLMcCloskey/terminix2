@@ -406,15 +406,18 @@ a {
 @media only screen and (min-width: 1440px) {
     .terminix-header {
         max-width: 1440px;
-        /* font-size: 1em; */
     }
 
     .phone-advert {
         font-size: 1.25em;
     }
 
-    body {
+    #damage-cost {
+        font-size: 2em;
+    }
 
+    .threat-section {
+        font-size: 1.2em;
     }
 
     .info-block {
