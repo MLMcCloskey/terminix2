@@ -2,6 +2,8 @@
 html {
     height: 100%;
     max-width: 100%;
+    max-width: 1440px;
+    margin: auto;
 }
 body {
     color: #002f47;
@@ -395,4 +397,31 @@ a {
     font-size: 0.8em;
     font-weight: bold;
     margin: 0 auto;
+}
+
+
+
+
+/* media queries */
+@media only screen and (min-width: 1440px) {
+    .terminix-header {
+        max-width: 1440px;
+        /* font-size: 1em; */
+    }
+
+    .phone-advert {
+        font-size: 1.25em;
+    }
+
+    body {
+
+    }
+
+    .info-block {
+        font-size: 1em;
+    }
+
+    .terminix-promise p {
+        font-size: 1em;
+    }
 }
