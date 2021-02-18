@@ -74,7 +74,7 @@ a {
 #logo {
     margin: 0 0 10px 10px;
     display: inline-block;
-    width: 30%;
+    width: 29%;
 }
 
 .green-box {
@@ -410,6 +410,10 @@ a {
 
     .phone-advert {
         font-size: 1.25em;
+    }
+
+    #HeroForm, .offer-image {
+        max-width: 785px;
     }
 
     #damage-cost {
