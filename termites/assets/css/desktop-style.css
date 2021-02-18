@@ -125,7 +125,7 @@ a {
     color: white;
     text-align: center;
     font-weight: bold;
-    font-size: 2.5em;
+    font-size: 4.2vw;
     text-shadow: 6px 6px 6px #111;
     margin: 40px auto;
 }
@@ -415,6 +415,10 @@ a {
 
     #HeroForm, .offer-image {
         max-width: 785px;
+    }
+
+    .hero-text {
+        font-size: 2.5em;
     }
 
     #damage-cost {
