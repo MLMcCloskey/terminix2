@@ -25,7 +25,6 @@ img {
     color: white;
     font-weight: bold;
     display: block;
-    width: 80%;
     margin: 0 auto;
     max-width: 250px;
     max-height: 50px;
@@ -132,7 +131,6 @@ a {
     padding: 15px;
     color: white;
     text-align: center;
-    /* font-size: 4vw; */
     max-width: 580px;
 }
 
